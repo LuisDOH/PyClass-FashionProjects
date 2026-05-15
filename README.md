@@ -12,7 +12,8 @@ To ensure consistency and avoid the "it works on my machine" problem, we use a `
 * **Cleanliness:** It keeps the repository lightweight; we only track the *names* of the dependencies, not the source code of the libraries themselves
 
 ### To install all pakages from requirements.txt run    
-    pip install -r requirements.txt 
+    pip install -r requirements.txt
+    
 
 ### If you install more packages in the project, you can update the list using
     pip freeze > requirements.txt
@@ -30,15 +31,15 @@ Before installing any dependencies, it is highly recommended to set up a **Virtu
 ### 1. Create and Activate a Virtual Environment (Recommended)
 An isolated virtual environment prevents conflicts with other Python projects on your system.
 
-### Create the virtual environment
-  ```pip freeze > requirements.txt```
+### * ***Create the virtual environment***
+    pip freeze > requirements.txt
 
 ### Activate it:
 ### On Windows (Command Prompt):
-  ```.\venv\Scripts\activate```
+    .\venv\Scripts\activate
   
 ### On Windows (PowerShell):
-  ```.\venv\Scripts\Activate.ps1```
+      .\venv\Scripts\Activate.ps1
   
 ### On macOS/Linux:
-  ```source venv/bin/activate```
+      source venv/bin/activate
