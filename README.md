@@ -11,10 +11,10 @@ To ensure consistency and avoid the "it works on my machine" problem, we use a `
 * **Portability:** Anyone cloning this repository can set up the identical environment in seconds.
 * **Cleanliness:** It keeps the repository lightweight; we only track the *names* of the dependencies, not the source code of the libraries themselves
 
-To install all pakages from requirements.txt run    
+# To install all pakages from requirements.txt run    
     pip install -r requirements.txt 
 
-If you install more packages in the project, you can update the list using
+# If you install more packages in the project, you can update the list using
     pip freeze > requirements.txt
     
 
