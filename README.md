@@ -11,10 +11,10 @@ To ensure consistency and avoid the "it works on my machine" problem, we use a `
 * **Portability:** Anyone cloning this repository can set up the identical environment in seconds.
 * **Cleanliness:** It keeps the repository lightweight; we only track the *names* of the dependencies, not the source code of the libraries themselves
 
-# To install all pakages from requirements.txt run    
+### To install all pakages from requirements.txt run    
     pip install -r requirements.txt 
 
-# If you install more packages in the project, you can update the list using
+### If you install more packages in the project, you can update the list using
     pip freeze > requirements.txt
     
 
@@ -27,14 +27,14 @@ Before installing any dependencies, it is highly recommended to set up a **Virtu
 * **Clean Deployments:** It ensures that when we generate the `requirements.txt` file using `pip freeze`, it only includes the packages explicitly needed for this script, rather than every Python library installed on your machine.
 
 
-***1. Create and Activate a Virtual Environment (Recommended)**
+### 1. Create and Activate a Virtual Environment (Recommended)**
 An isolated virtual environment prevents conflicts with other Python projects on your system.
 
-** Create the virtual environment
-  python -m venv venv
+### Create the virtual environment
+  pip freeze > requirements.txt
 
-# Activate it:
-# On Windows (Command Prompt)**:
+### Activate it:
+### On Windows (Command Prompt)**:
   .\venv\Scripts\activate
   
 # On Windows (PowerShell)**:
