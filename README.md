@@ -33,11 +33,11 @@ An isolated virtual environment prevents conflicts with other Python projects on
   python -m venv venv
 
 # Activate it:
-  # On Windows (Command Prompt):
+# On Windows (Command Prompt)**:
   .\venv\Scripts\activate
   
-  # On Windows (PowerShell):
+# On Windows (PowerShell)**:
   .\venv\Scripts\Activate.ps1
   
-  # On macOS/Linux:
+# On macOS/Linux:**
   source venv/bin/activate
