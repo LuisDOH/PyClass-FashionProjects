@@ -27,10 +27,10 @@ Before installing any dependencies, it is highly recommended to set up a **Virtu
 * **Clean Deployments:** It ensures that when we generate the `requirements.txt` file using `pip freeze`, it only includes the packages explicitly needed for this script, rather than every Python library installed on your machine.
 
 
-* **1. Create and Activate a Virtual Environment (Recommended)**
+***1. Create and Activate a Virtual Environment (Recommended)**
 An isolated virtual environment prevents conflicts with other Python projects on your system.
 
-# Create the virtual environment
+** Create the virtual environment
   python -m venv venv
 
 # Activate it:
